@@ -1,5 +1,5 @@
 # text2music
-This is Github Repository for the project "Text-to-Music Generation".
+This is the Github Repository for the project "Text-to-Music Generation".
 
 - To have some intuition about how this works, check this huggingface space: https://huggingface.co/spaces/Mubert/Text-to-Music
 - Currently, we are in a stage where we should check related work and communicate ideas. Later, once we have some creative ideas, we can make plans and start implementation.
