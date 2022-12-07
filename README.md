@@ -22,3 +22,5 @@ You're welcome to join our [discord server](https://discord.gg/GbpJrQuNdg) to sh
 
 ## Contribution
 To contribute the project, simply open a pull request.
+
+
