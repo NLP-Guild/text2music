@@ -1,4 +1,4 @@
-# text2music
+# Text-to-Music Generation
 This is the Github Repository for the project "Text-to-Music Generation".
 
 - To have some intuition about how this works, check this huggingface space: https://huggingface.co/spaces/Mubert/Text-to-Music
