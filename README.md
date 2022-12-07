@@ -23,7 +23,7 @@ You're welcome to join our [discord server](https://discord.gg/GbpJrQuNdg) to sh
 ## Contribution
 To contribute the project, simply open a pull request.
 
-## Active line of work
+## Active Line of Work
 1. we are collecting real user prompts for later dataset building. If you would like to share your ideas, fill this [google form](https://forms.gle/Fmp8aSU3f6ThmeaT9) and submit. We really appreciate your help and will add you to the "wall of love" later:)
 
 
