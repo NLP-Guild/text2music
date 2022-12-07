@@ -2,6 +2,6 @@
 
 ## Quick Start
 1. installation: 
-  ```
-  pip install text2music
-  ```
+      ```
+      pip install text2music
+      ```
