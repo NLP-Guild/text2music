@@ -18,3 +18,7 @@ You're welcome to join our [discord server](https://discord.gg/GbpJrQuNdg) to sh
       ```
       pip install text2music
       ```
+
+
+## Contribution
+To contribute the project, simply open a pull request.
