@@ -1,6 +1,7 @@
+# the code is take from https://huggingface.co/spaces/Mubert/Text-to-Music
+from ..output import BaseOutput
 import numpy as np
 import json
-import numpy as np
 import httpx
 import time
 from sentence_transformers import SentenceTransformer
@@ -107,7 +108,10 @@ def generate_track_by_prompt(prompt, duration, loop=False):
 
 def generate_and_store(prompt,duration,output_path: str,loop=False,):
     url, state, tags = generate_track_by_prompt(prompt,duration,loop)
-    r = requests.get(url, allow_redirects=True)
+    BaseOutput(
+        output_path= output_path,
+        mp3_url=url
+    ).write()
 
-    open(f'{output_path}.mp3', 'wb').write(r.content)
+
 
