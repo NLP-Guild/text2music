@@ -4,10 +4,10 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 requirements = [
-  'sentence_transformers',
+    'sentence_transformers',
     'numpy',
     'httpx',
-'requests'
+    'requests'
 ]
 
 setup(
