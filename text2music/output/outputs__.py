@@ -1,4 +1,5 @@
 import requests
+import os
 
 class BaseOutput:
     def __init__(self,*,output_path: str, mp3_url: str = None, mp3_file = None) -> None:
@@ -15,7 +16,13 @@ class BaseOutput:
     def write(self):
         if self.mp3_url is not None:
             r = requests.get(self.mp3_url, allow_redirects=True)
-            open(self.output_path, 'wb').write(r.content)
+            if os.path.exists(self.output_path):
+                os.remove(self.output_path)
+            with open(self.output_path, 'wb') as file:
+                file.write(r.content)
+
+
+
         elif self.mp3_file is not None:
             raise NotImplementedError('TODO: add mp3 file') # TODO
 
