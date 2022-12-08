@@ -7,3 +7,4 @@ dist
 text2music.egg-info
 main.py
 *.pyc
+*.mp3
