@@ -17,7 +17,7 @@ class BaseOutput:
         if self.mp3_url is not None:
             r = requests.get(self.mp3_url, allow_redirects=True)
             if os.path.exists(self.output_path):
-                os.remove(self.output_path)
+                self.output_path = self.output_path[:-4] + '_new.mp3'
             with open(self.output_path, 'wb') as file:
                 file.write(r.content)
 
