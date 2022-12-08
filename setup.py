@@ -3,11 +3,16 @@ from setuptools import setup, find_packages
 with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
-requirements = []
+requirements = [
+  'sentence_transformers',
+    'numpy',
+    'httpx',
+'requests'
+]
 
 setup(
     name="text2music",
-    version="0.0.1",
+    version="0.1.0",
     author="NLP Guild",
     author_email="tao.xiang@tum.de",
     description="A package for text-to-music generation",
