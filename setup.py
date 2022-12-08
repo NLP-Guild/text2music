@@ -12,7 +12,7 @@ requirements = [
 
 setup(
     name="text2music",
-    version="0.1.2",
+    version="0.1.3",
     author="NLP Guild",
     author_email="tao.xiang@tum.de",
     description="A package for text-to-music generation",
