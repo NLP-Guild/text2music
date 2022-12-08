@@ -22,7 +22,11 @@ You're welcome to join our [discord server](https://discord.gg/GbpJrQuNdg) to sh
 2. experimental example:
       ```python
       import text2music as t2m
-      t2m.experimental.mubert_generate('I am quite happy today', 10, 'test.mp3')
+      t2m.experimental.mubert_generate(
+        prompt = 'I am quite happy today',
+        duration = 10,
+        output_path = 'test.mp3'
+    )
       ```
 
 
