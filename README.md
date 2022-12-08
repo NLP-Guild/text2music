@@ -18,6 +18,12 @@ You're welcome to join our [discord server](https://discord.gg/GbpJrQuNdg) to sh
       ```
       pip install text2music
       ```
+2. experimental example:
+      ```python
+      import text2music as tm
+      tm.experimental.mubert_generate('this is a prompt', 10, 'test.mp3')
+      ```
+
 
 
 ## Contribution
