@@ -1,1 +1,7 @@
 .idea
+build
+dist
+text2music.egg-info
+*.ps1
+*.sh
+venv
