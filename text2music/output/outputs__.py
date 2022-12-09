@@ -20,7 +20,7 @@ class BaseOutput:
                 self.output_path = self.output_path[:-4] + '_new.mp3'
             with open(self.output_path, 'wb') as file:
                 file.write(r.content)
-        
+
         elif self.mp3_file is not None:
             raise NotImplementedError('TODO: add mp3 file') # TODO
 
