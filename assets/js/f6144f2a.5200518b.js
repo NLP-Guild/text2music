@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[93],{7207:s=>{s.exports=JSON.parse('{"label":"hello","permalink":"/text2music/blog/tags/hello","allTagsPath":"/text2music/blog/tags","count":2}')}}]);
