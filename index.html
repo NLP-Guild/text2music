@@ -18,12 +18,18 @@
 <link rel="preload" href="assets/js/runtime_main.07939e8a.js" as="script">
 <link rel="preload" href="assets/js/main.59b36e07.js" as="script">
 
+
 <body class="" data-rh="class" style="overflow: visible;" data-new-gr-c-s-check-loaded="14.1088.0" data-gr-ext-installed="">
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();null!==e?t(e):window.matchMedia("(prefers-color-scheme: dark)").matches?t("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,t("light"))}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus"><div id="docusaurus-base-url-issue-banner-container"></div><div role="region"><a href="https://flet.dev/#" class="skipToContent_fXgn">Skip to main content</a></div>
 
 
+    <button onclick="show_sidebar()">ni hao</button>
 
-    <nav class="navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Navigation bar toggle" class="navbar__toggle clean-btn" type="button" tabindex="0"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="#">
+    <nav class="navbar navbar--fixed-top navbarHideable_m1mJ"><div class="navbar__inner"><div class="navbar__items">
+        <button  aria-label="Navigation bar toggle" class="navbar__toggle clean-btn" type="button" tabindex="0"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+        </button>
+
+        <a class="navbar__brand" href="#">
 <!--        -->
         <div class="navbar__logo">
         <img src="static/avatar-small.png"
@@ -42,9 +48,16 @@
 <!--        <div class="searchBox_ZlJk"><button type="button" class="DocSearch DocSearch-Button" aria-label="Search"><span class="DocSearch-Button-Container"><svg width="20" height="20" class="DocSearch-Search-Icon" viewBox="0 0 20 20"><path d="M14.386 14.386l4.0877 4.0877-4.0877-4.0877c-2.9418 2.9419-7.7115 2.9419-10.6533 0-2.9419-2.9418-2.9419-7.7115 0-10.6533 2.9418-2.9419 7.7115-2.9419 10.6533 0 2.9419 2.9418 2.9419 7.7115 0 10.6533z" stroke="currentColor" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="DocSearch-Button-Placeholder">Search</span></span><span class="DocSearch-Button-Keys"><kbd class="DocSearch-Button-Key"><svg width="15" height="15" class="DocSearch-Control-Key-Icon"><path d="M4.505 4.496h2M5.505 5.496v5M8.216 4.496l.055 5.993M10 7.5c.333.333.5.667.5 1v2M12.326 4.5v5.996M8.384 4.496c1.674 0 2.116 0 2.116 1.5s-.442 1.5-2.116 1.5M3.205 9.303c-.09.448-.277 1.21-1.241 1.203C1 10.5.5 9.513.5 8V7c0-1.57.5-2.5 1.464-2.494.964.006 1.134.598 1.24 1.342M12.553 10.5h1.953" stroke-width="1.2" stroke="currentColor" fill="none" stroke-linecap="square"></path></svg></kbd><kbd class="DocSearch-Button-Key">K</kbd></span></button></div>-->
 
 
-    </div></div><div role="presentation" class="navbar-sidebar__backdrop"></div>
+    </div></div>
 
-        <div class="navbar-sidebar"><div class="navbar-sidebar__brand">
+        <div id="mySidebar" role="presentation" class="navbar-sidebar__backdrop"></div>
+
+
+
+
+<!--        Sidebar-->
+<!--        Todo: add js for sidebar-->
+        <div  class="navbar-sidebar"><div class="navbar-sidebar__brand">
             <a class="navbar__brand" href="/">
                 <div class="navbar__logo"><img src="/static/avatar-small.png" alt="Text2Music Logo" class="themedImage_ToTc themedImage--light_HNdA"></div>
                 <b class="navbar__title text--truncate">Text2Music</b>
@@ -58,15 +71,20 @@
             <button type="button" class="clean-btn navbar-sidebar__close"><svg viewBox="0 0 15 15" width="21" height="21"><g stroke="var(--ifm-color-emphasis-600)" stroke-width="1.2"><path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path></g></svg></button></div>
 
 
-            <div class="navbar-sidebar__items"><div class="navbar-sidebar__item menu">
-                <ul class="menu__list">
-                    <li class="menu__list-item"><a class="menu__link" href="/docs/">Docs</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="/docs/roadmap">Roadmap</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="/blog">Blog</a></li>
-                    <li class="menu__list-item"><a href="https://github.com/flet-dev/flet" target="_blank" rel="noopener noreferrer" class="menu__link header-github-link" aria-label="GitHub repository"></a></li>
-                </ul>
+            <div class="navbar-sidebar__items">
+                <div class="navbar-sidebar__item menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__link" href="/docs/">Docs</a></li>
+                        <li class="menu__list-item"><a class="menu__link" href="/docs/roadmap">Roadmap</a></li>
+                        <li class="menu__list-item"><a class="menu__link" href="/blog">Blog</a></li>
+                        <li class="menu__list-item"><a href="https://github.com/flet-dev/flet" target="_blank" rel="noopener noreferrer" class="menu__link header-github-link" aria-label="GitHub repository"></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-sidebar__item menu"><button type="button" class="clean-btn navbar-sidebar__back">← Back to main menu</button></div>
             </div>
-                <div class="navbar-sidebar__item menu"><button type="button" class="clean-btn navbar-sidebar__back">← Back to main menu</button></div></div>
+
+
+
         </div>
 
     </nav><div class="main-wrapper mainWrapper_z2l0"><main><div class="container margin-bottom--lg"><div class="flet-hero heroBanner_UJJx"><div class="row">
@@ -114,7 +132,7 @@
 </ul></div><div class="col footer__col"><div class="footer__title">Legal</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="#">Privacy policy</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2022 NLP Guild</div></div></div></footer></div>
 <script src="assets/js/runtime_main.07939e8a.js"></script>
 <script src="assets/js/main.59b36e07.js"></script>
-
+<script src="assets/js/myjs.js"></script>
 
 
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
