@@ -35,7 +35,7 @@ You're welcome to join our [discord server](https://discord.gg/GbpJrQuNdg) to sh
 The easiest way to contribute is to check our [task list](https://github.com/orgs/NLP-Guild/projects/3) and see what you could help. Then, you can simply open a pull request to contribute the codes :)
 - if you are new to GitHub pull request, check this [document](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
-Or, if you have any novel ideas about text-to-music generation, feel free to discuss in the [discord server](https://discord.gg/GbpJrQuNdg):
+Or, if you have any novel ideas about text-to-music generation, feel free to discuss in the [discord server](https://discord.gg/GbpJrQuNdg)
 <a href = "https://discord.gg/GbpJrQuNdg">
 <img src = "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6a49cf127bf92de1e2_icon_clyde_blurple_RGB.png" width = 2%></img>
 </a>
