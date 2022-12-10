@@ -44,9 +44,8 @@ We appreciate your contribution!
 
 ## Active Line of Work
 1. we are collecting real user prompts for later dataset building. If you would like to share your ideas, fill this [google form](https://forms.gle/Fmp8aSU3f6ThmeaT9) and submit. We really appreciate your help and will add you to the "wall of love" later:)
-2. We are currently building our website: https://nlp-guild.github.io/text2music/. You're welcome to contribute 🙂
 
-Check more details [here](https://github.com/orgs/NLP-Guild/projects/3)
+Check our [task list](https://github.com/orgs/NLP-Guild/projects/3) for more details
 
 
 
